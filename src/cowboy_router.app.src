@@ -1,0 +1,13 @@
+{application, cowboy_router,
+ [
+  {description, "Cowboy Router"},
+  {vsn, git},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  esupervisor
+                 ]},
+  {mod, { cowboy_router_app, []}},
+  {env, []}
+ ]}.
